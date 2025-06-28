@@ -89,8 +89,8 @@ def analyze_nutrition_tool(self, blood_report_data):
 
 1. **Clone the repository:**
 ```bash
-git clone <repository-url>
-cd blood-test-analyser-debug
+git clone https://github.com/Hisham1404/blood_test.git
+cd blood_test
 ```
 
 2. **Install dependencies:**
