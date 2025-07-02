@@ -11,7 +11,7 @@ from tools import search_tool, BloodTestReportTool
 
 ### Loading LLM - Using OpenRouter via LiteLLM
 llm = LLM(
-    model="openrouter/moonshotai/kimi-dev-72b:free",
+    model="openrouter/deepseek/deepseek-r1-0528-qwen3-8b:free",
     temperature=0.7,
     api_key=os.getenv("OPENROUTER_API_KEY"),  # OpenRouter API key
     api_base="https://openrouter.ai/api/v1"  # OpenRouter API base
